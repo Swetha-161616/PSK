@@ -1,24 +1,29 @@
-# PSK and QPSK
+# PSK and QPSK:
 # Aim:
 Write a simple Python program for the modulation and demodulation of PSK and QPSK.
 # Software required:
-  Google collab
+Google colab
+
 # Theory:
 # PSK:
-  PSK system is characterized by having a
+PSK system is characterized by having a
 signal space that is one-dimensional,
 with a signal constellation consisting of
 two message points.
-<img width="481" height="520" alt="image" src="https://github.com/user-attachments/assets/8e0566e3-32fe-4cf2-8cd8-6b6166b0a611" />
+
+<img width="370" height="372" alt="image" src="https://github.com/user-attachments/assets/0b5293a7-737f-4939-b3b8-36248106207f" />
+
 # QPSK:
 QPSK, as with binary PSK, information carried by the transmitted signal
 is contained in the phase. The phase of the carrier takes on one of four
 equally spaced values, such as π/4, 3π/4, 5π/4 and 7π/4. The transmitted
 signal is
-<img width="642" height="287" alt="image" src="https://github.com/user-attachments/assets/3ebff6c9-a00e-4239-8fce-6579ed36eccb" />
+
+<img width="449" height="215" alt="image" src="https://github.com/user-attachments/assets/7b98d6fe-d979-4abb-887f-18aa3d73dd26" />
+
 # Program:
-# PSk
-```
+# PSK
+```PSK 
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.signal import butter, lfilter
@@ -72,8 +77,10 @@ plt.legend()
 plt.tight_layout()
 plt.show()
 ```
-# QPSK:
+
+# QPSK
 ```
+#QPSK 
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -151,14 +158,14 @@ plt.tight_layout()
 plt.grid(True)
 plt.show()
 ```
-# Output Waveform
-# PSk:
+# Output Waveform:
+# PSK
 
-![WhatsApp Image 2026-02-27 at 1 17 47 PM](https://github.com/user-attachments/assets/00249e13-c60a-4911-bc41-dc03365baad9)
+<img width="1190" height="790" alt="image" src="https://github.com/user-attachments/assets/dc67d1d7-44b2-4a62-9985-8b9cc51e5d28" />
 
-# QPSK:
+# QPSK
 
-![WhatsApp Image 2026-02-27 at 1 20 02 PM](https://github.com/user-attachments/assets/42b1cb99-e6ff-4e9e-8149-38bc03237bc5)
+<img width="989" height="590" alt="image" src="https://github.com/user-attachments/assets/07c87bbe-c122-46d5-ae69-0f52186fdc55" />
 
 # Results:
-Thus PSK and QPSK were performed and the waveform is verified using Google Colab.
+Thus PSK and QPSK were performed and the waveform is verified using Google Colab
